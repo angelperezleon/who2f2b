@@ -1,5 +1,5 @@
 # who2f2b.sh
-Ban the entire Network-Range associated to all banned fail2ban IPs seen in the /var/log/fail2ban.log file!
+Ban the entire Network-Range associated to all banned IPs seen in the /var/log/fail2ban.log file!
 
 Note: this is quite a dangerous script when used, as you can potetially lock your entire network range out, if co-workers or associates in the same network range as you get banned by f2b.
 
