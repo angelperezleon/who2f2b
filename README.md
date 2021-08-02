@@ -25,3 +25,6 @@ Use at your own risk, ensure you add your IP to ingore list to avoid locking you
 # Thanks
 
 Thanks goes out to whois.cymru.com for providing a fantastic tool to whois IP for the entire network ranges!
+
+**Todo**
+- [] Add a country filter, so only ban subnet from list of countries you provide!
