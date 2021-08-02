@@ -11,3 +11,8 @@ Tested on Ubuntu 20.04
 
 Use at your own risk, ensure you add your IP to ingore list to avoid locking yourself out of your ssh console session on the server if things screw up while using this script/fail2ban.
 
+# steps
+
+1. chmod +x who2f2b.sh # to make it executable
+2. change F2b log location to part actual fail2ban.log containing all BAN instances.
+3. bash who2f2b.sh # to exceute, there is a deley of 5secs for each whois to avoid flood
