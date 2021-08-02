@@ -1,5 +1,5 @@
 # who2f2b.sh
-whois all banned fail2ban ip and add entire subnet to firewall
+whois all banned fail2ban IPs and add the entire subnet to firewall!
 
 Ever wanted to ban entrie subnet of all the IP's that continually try to hack your server through ssh port.
 
