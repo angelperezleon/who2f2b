@@ -12,9 +12,9 @@ Still work in progress, so its will have bugs.
 Tested on Ubuntu 20.04
 
 # Latest script
- who2f2b-v3.sh - works fine and tested 2.8.2021 on ubuntu 20.04
- who2f2b-v2.sh - not working
- who2f2b-v1.sh - not working
+ - who2f2b-v3.sh - works fine and tested 2.8.2021 on ubuntu 20.04
+ - who2f2b-v2.sh - not working
+ - who2f2b.sh - not working
  
 # WARNING
 
