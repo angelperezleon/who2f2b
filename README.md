@@ -47,5 +47,5 @@ Using cmd: sudo fail2ban-client status sshd
 
 **Todo**
 - [ ] Add a country filter, so only ban subnets from list of countries you provide!
-- [ ] Figure out why f2b is banning 0.0.0.0 (not to be mistaken by 0.0.0.0/0 which will ban everything)
+- [x] Figure out why f2b is banning 0.0.0.0 (not to be mistaken by 0.0.0.0/0 which will ban everything) - added an unban after each run
 
