@@ -34,7 +34,7 @@ Thanks goes out to whois.cymru.com for providing a fantastic tool to whois IP fo
 
 # Update 4th Aug 2021
 
--Stats
+- Stats
 
 In the space of 48-hours running this script through cron once a night, these are the stats:
 
