@@ -37,11 +37,12 @@ Thanks goes out to whois.cymru.com for providing a fantastic tool to whois IP fo
 
 - Stats 4th Aug 2021
 
-In the space of 48-hours running this script through cron once a night, these are the stats:
+ running this script through cron once a night, these are the stats:
 
-Suing cmd: sudo fail2ban-client status sshd
+ - In the space of 48-hours: Currently banned:	783 of which 330 are entire subnet bans!
+ - & after 72hours: Currently banned:	931 of which 440 are entire subnet bans!
 
-Currently banned:	783 of which 330 are entire subnet bans!
+Using cmd: sudo fail2ban-client status sshd
 
 
 **Todo**
