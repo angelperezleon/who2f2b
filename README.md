@@ -5,9 +5,9 @@ Note: this is quite a dangerous script when used, as you can potetially lock you
 
 Ever wanted to ban entrie subnet of all the IP's that continually try to hack your server through ssh port.
 
-Then this script will go a little way in banning the entire range, after extrapolating what abnned IP are already set by fail2ban.
+Then this script will go a little way in banning the entire range, after extrapolating which IPs have been banned by fail2ban.  A simple transpose IP to corresponding network range is done.
 
-Still work in progress, so its will have bugs.
+Still work in progress, so its will have some bugs.
 
 Tested on Ubuntu 20.04
 
@@ -32,5 +32,14 @@ Use at your own risk, ensure you add your IP to ingore list to avoid locking you
 
 Thanks goes out to whois.cymru.com for providing a fantastic tool to whois IP for the entire network ranges!
 
+# Update 4th Aug 2021
+
+In the space of 48-hours running this script through cron once a night, these are the stats:
+
+Currently banned:	783 of which 330 are entire subnet bans!
+
+
 **Todo**
 - [] Add a country filter, so only ban subnet from list of countries you provide!
+- [] Figure out why f2b is banning 0.0.0.0 (not to be mistaken by 0.0.0.0/0 which will ban everything)
+- 
