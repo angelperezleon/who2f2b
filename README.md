@@ -1,5 +1,6 @@
 # who2f2b.sh
-Ban the entire Network-Range associated to all banned IPs seen in the /var/log/fail2ban.log file!
+
+Ban the entire Network-Range associated to all banned IPs seen in the /var/log/fail2ban.log file for failed ssh logins!
 
 Note: this is quite a dangerous script when used, as you can potetially lock your entire network range out, if co-workers or associates in the same network range as you get banned by f2b.
 
@@ -37,6 +38,8 @@ Thanks goes out to whois.cymru.com for providing a fantastic tool to whois IP fo
 - Stats 4th Aug 2021
 
 In the space of 48-hours running this script through cron once a night, these are the stats:
+
+Suing cmd: sudo fail2ban-client status sshd
 
 Currently banned:	783 of which 330 are entire subnet bans!
 
