@@ -32,9 +32,9 @@ Use at your own risk, ensure you add your IP to ingore list to avoid locking you
 
 Thanks goes out to whois.cymru.com for providing a fantastic tool to whois IP for the entire network ranges!
 
-# Update 4th Aug 2021
+# Update
 
-- Stats
+- Stats 4th Aug 2021
 
 In the space of 48-hours running this script through cron once a night, these are the stats:
 
