@@ -20,9 +20,11 @@ Use at your own risk, ensure you add your IP to ingore list to avoid locking you
 
 # steps
 
-1. chmod +x who2f2b.sh # to make it executable
-2. change F2b log location to part actual fail2ban.log containing all BAN instances.
-3. bash who2f2b.sh # to exceute, there is a delay of 5secs for each whois to avoid flood
+1. VERY IMPORTANT: Add your IP/Network to "ignoreip = " in/etc/fail2ban/jail.local setting file
+2. service fail2ban reload
+3. chmod +x who2f2b.sh # to make it executable
+4. change F2b log location to part actual fail2ban.log containing all BAN instances.
+5. bash who2f2b.sh # to exceute, there is a delay of 5secs for each whois to avoid flood
 
 # Thanks
 
