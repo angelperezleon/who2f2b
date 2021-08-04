@@ -1,6 +1,6 @@
 
 #!/bin/bash
-# file: who2f2b.sh
+# file: who2f2b.sh - v1.3
 # Source: $me
 # Credits: <jochum> libera.chat irc (2.8.2021)
 # Date: April 8th 2021 at CET 18:11
