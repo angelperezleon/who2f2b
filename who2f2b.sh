@@ -15,5 +15,5 @@ do
     sudo fail2ban-client set sshd banip "${ban}";
     #echo "sudo fail2ban-client set sshd banip ${ban}";
 done
+    sudo fail2ban-client set sshd unbanip 0.0.0.0
 service fail2ban reload
-
