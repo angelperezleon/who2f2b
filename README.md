@@ -12,11 +12,6 @@ Still work in progress, so its will have some bugs.
 
 Tested on Ubuntu 20.04.2 LTS (GNU/Linux 5.4.0-62-generic x86_64)
 
-# Latest script
- - who2f2b-v3.sh - works fine and tested 2.8.2021 on ubuntu 20.04
- - who2f2b-v2.sh - not working
- - who2f2b.sh - not working
- 
 # WARNING
 
 Test script on non-production/development server, to avoid screwing up big time if script fails in some way.
