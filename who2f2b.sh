@@ -4,7 +4,7 @@
 # Source: $me
 # Credits: <jochum> libera.chat irc (2.8.2021)
 # Date: April 8th 2021 at CET 18:11
-# Description: zgrep fail2ban logs for any ban 2nd or 3rd octecs and compress older log
+# Description: subnet banning from IP sources found in the fail2ban that are listed as BAN.
 
 ips=$(awk '($(NF-1) = /Ban/){print $NF}' /opt/log/fail2ban.log | sort | uniq | sort -n)
 
