@@ -38,6 +38,9 @@ Thanks goes out to whois.cymru.com for providing a fantastic tool to whois IP fo
 
  - In the space of 48-hours: Currently banned:	783 of which 330 are entire subnet bans!
  - & after 72hours: Currently banned:	938 of which 447 are entire subnet bans!
+ 
+- Stats 12th Aug 2021 (after 8-days)
+ - Currently banned:	3109 of which 1489 are entire subnet bans!
 
 Using cmd: sudo fail2ban-client status sshd
 
